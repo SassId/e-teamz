@@ -1,10 +1,59 @@
-/* Resets the layout */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Mina:wght@400;700&display=swap');
+
+/* RESET */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+/* COMPONENTS */
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+
+/* SECTION: POPULAR PRODUCTS  */
+.popular-products {
+  min-height: 400px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.137); */
+  background-color: #c7f5ef;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.popular-products div {
+  border-radius: 10px;
+}
+
+.popular-products img {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.prod1,
+.prod2,
+.prod3 {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.219);
+}
+
+.images {
+  display: flex;
+  gap: 50px;
 }
