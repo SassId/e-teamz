@@ -5,8 +5,12 @@
 }
 
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
     
+}
+
+h2{
+    font-size: 28px;
 }
 
 .img-banniere{
@@ -20,10 +24,18 @@ article{
     justify-content: center;
     text-align: center;
     gap: 20px;
+    
    
 }
 
+.p-grey{
+    color: rgb(129, 129, 129);
+    font-size: 15px;
+    margin-top: 9px;
+}
+
 .produit{
+    
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -34,9 +46,9 @@ article{
     background-color: white;
     border-radius: 10px;
     gap: 5px;
-    padding-top: 50px;
+    padding-top: 20px;
     box-shadow: 5px 5px 10px rgb(219, 216, 216);
-    padding-inline: 35px;
+    padding-inline: 20px;
 }
 
 .banniere-image{
@@ -66,3 +78,4 @@ article{
     color: white;
     font-size: 35px;
 }
+
