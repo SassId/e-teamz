@@ -1,0 +1,23 @@
+* reset {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #161616;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.38462;
+  letter-spacing: 0;
+}
+
+.img {
+  width: auto;
+  height: 20px;
+}
+
+.footer {
+  background-color: #c7f5ef;
+  display: block;
+}
