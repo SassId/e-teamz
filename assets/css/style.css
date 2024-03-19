@@ -1,28 +1,3 @@
-
-* reset {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  color: #161616;
-  font-family: var(--font-primary);
-  font-size: 16px;
-  line-height: 1.38462;
-  letter-spacing: 0;
-}
-
-.img {
-  width: auto;
-  height: 20px;
-}
-
-.footer {
-  background-color: #c7f5ef;
-  display: block;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Mina:wght@400;700&display=swap');
 
 /* RESET */
@@ -44,6 +19,24 @@ h2 {
 
 h3 {
   text-transform: capitalize;
+}
+
+body {
+  color: #161616;
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 1.38462;
+  letter-spacing: 0;
+}
+
+.img {
+  width: auto;
+  height: 20px;
+}
+
+.footer {
+  background-color: #c7f5ef;
+  display: block;
 }
 
 
@@ -83,6 +76,7 @@ article{
     padding-top: 20px;
     box-shadow: 5px 5px 10px rgb(219, 216, 216);
     padding-inline: 20px;
+    margin-bottom: 50px;
 }
 
 .banniere-image{
@@ -143,6 +137,7 @@ nav{
 
 .icon:hover{
     color: aliceblue;
+}
 
 
 /* SECTION: POPULAR PRODUCTS  */
