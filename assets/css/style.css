@@ -35,8 +35,13 @@ body {
 }
 
 .footer {
-  background-color: #c7f5ef;
-  display: block;
+  background-color: #76dbf5;
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
 }
 
 
@@ -76,7 +81,7 @@ article{
     padding-top: 20px;
     box-shadow: 5px 5px 10px rgb(219, 216, 216);
     padding-inline: 20px;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .banniere-image{
@@ -177,5 +182,10 @@ nav{
   display: flex;
   gap: 50px;
 
+}
+
+.copyright{
+  text-align: center;
+background-color: #76dbf5;
 }
 
