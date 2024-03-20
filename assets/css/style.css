@@ -117,7 +117,9 @@ nav{
 }
 
 .icon:hover{
-    color: aliceblue;
+
+  color: aliceblue;
+}
 
 
 /* SECTION: POPULAR PRODUCTS  */
