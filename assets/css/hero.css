@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans serif;
+}
+
+.top{
+    height: 100px;
+    background: rgb(0, 16, 58);
+
+   
+    color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.top a{
+    color: white;
+
+}
+
+
+.hero{
+    display: flex;
+    flex-direction:column; 
+    justify-content: flex-end ;
+    align-items: flex-start;
+    gap: 10px;
+    background-image: url(../img/beats1.gif);
+    background-size: 100% 100%;
+    background-position: center bottom;
+    background-attachment: fixed;
+    height: 550px;
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    
+    ;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.top a{
+    color: white;
+    
+}
+.top a:hover{
+    text-decoration: underline;
+}
+
+.hero a{
+    text-decoration: none;
+   color: rgb(77, 59, 59);
+    
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #76dbf5;
+
+}
+.hero a:hover{
+    background-color: rgb(146, 144, 195);
+    transition: 2s;
+}
+.hero:hover{
+   background-image: url(../img/beats1.gif)
+   ;
+;
+   
+}

@@ -168,12 +168,16 @@ article {
   font-size: 35px;
 }
 
+
+.icon:hover
+  color: aliceblue;
 button {
   width: 200px;
   height: 45px;
   
 .icon:hover{
     color: aliceblue;
+
 }
 
 
