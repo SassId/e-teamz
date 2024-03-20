@@ -7,24 +7,19 @@
 html {
 
 }
+main {
+border: solid black 1px;
+width: 90%;
+margin: auto;
+margin-block: 20px;
+display: flex;
+}
 
 form {
     border: solid red 1px;
-    margin-block: 20px;
-    margin-inline: auto;
-    padding: 20px;
-    width: 300px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 500px;
+    
+    ;
 
-        input, button {
-            /* width: 400px; */
-            padding: 10px;
-            margin: 10px;
-            outline-color: blue;
-        }
+    /* margin: auto; */
 }
-
