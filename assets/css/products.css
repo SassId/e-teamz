@@ -32,18 +32,30 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
 
 }
 .line1 {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 
 }
 
 .line2 {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
+}
+
+.prod1, .prod2, .prod3, .prod4, .prod5, .prod6 {
+
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.418);
+    border: solid;
+    background-color: #ffffff;
+    /* border-radius: 20px; */
+    
 }
 /* MAIN SECTION END */
 
