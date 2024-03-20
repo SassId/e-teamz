@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="assets/css/login.css" />
+  </head>
+  <body>
+    <main>
+      <form id="login-form">
+        <input id="email" placeholder="enter your email" type="text" />
+        <input id="password" placeholder="enter your password" type="text" />
+        <button type="submit">Valider</button>
+        <button type="reset">Réinitialiser</button>
+      </form>
+    </main>
+
+    <script type="module">
+      // indicates that we'll be potentially importing files from this tag
+      import { LocalAuthService } from "./src/js/services/local-services/local-auth.service.js";
+      //    LocalAuthService.login()
+
+      import {
+        form,
+        emailInput,
+        passwordInput,
+      } from "./src/js/constants/dom.js";
+
+      emailInput.addEventListener("input", (event) => {
+        console.log(event.target.value);
+      });
+
+      class AuthService {
+        static async login(email, password) {
+          console.log("appel methode login", email, password);
+          const result = await fetch(
+            "./src/js/data/local-data-sources/users.json"
+          );
+          const users = result.json();
+          console.log(users);
+        }
+        static logout() {
+          console.log("appel methode logout");
+        }
+      }
+      function submitCallback(e) {
+        e.preventDefault();
+        form.reset(); //* methods that resets the input value after submiting
+        AuthService.login(emailInput.value, passwordInput.value);
+        console.log("appel fonction submitCallback");
+      }
+      form.addEventListener("submit", submitCallback);
+    </script>
+  </body>
+</html>

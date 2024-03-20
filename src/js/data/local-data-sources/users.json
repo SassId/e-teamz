@@ -1,0 +1,34 @@
+[
+    {
+        "email":"sassid@gmail.com",
+        "password":"sassid",
+        "firstname":"sassid",
+        "lastname":"dev"
+        
+    },
+    {
+        "email":"sofian@gmail.com",
+        "password":"sofian",
+        "firstname":"sofian",
+        "lastname":"dev"
+    }, 
+    {
+        "email":"issa@gmail.com",
+        "password":"issa",
+        "firstname":"issa",
+        "lastname":"dev"
+    }, 
+    {
+        "email":"fitia@gmail.com",
+        "password":"fitia",
+        "firstname":"fitia",
+        "lastname":"dev"
+    }, 
+    {
+        "email":"isaac@gmail.com",
+        "password":"isaac",
+        "firstname":"isaac",
+        "lastname":"dev"
+
+    }
+]
