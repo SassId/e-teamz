@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+}
+
+form {
+    border: solid red 1px;
+    margin-block: 20px;
+    margin-inline: auto;
+    padding: 20px;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        input, button {
+            /* width: 400px; */
+            padding: 10px;
+            margin: 10px;
+            outline-color: blue;
+        }
+}
+
